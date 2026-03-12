@@ -357,3 +357,28 @@ WillPopScope(
 ),
 ```
 
+## An Alternative Navigation Pattern: Using Named Routes
+In this section, you learned about the **recommended navigation approach**: Pushing and popping MaterialPageRoute objects to load different screens.
+
+There also exists an **alternative approach**, though - you can assign names to routes and load your routes via those names. However, that approach is not recommended (for most apps).
+
+Nonetheless, you can explore this alternative approach via the official documentation: https://docs.flutter.dev/development/ui/navigation#using-named-routes
+
+## Riverpod Versions
+This course was recorded based on Riverpod versions <3.
+
+If you're working with more recent versions in your project, you will need to import certain classes like `StateProvider` from the `legacy.dart` file like this:
+```dart
+import 'package:flutter_riverpod/legacy.dart';
+```
+Also see: https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37144826#questions/24147091
+
+## "riverpod" vs "provider" - There are many Alternatives!
+Older versions of this course used the "provider" package instead of "riverpod" for app-wide state management.
+
+riverpod is a library created by the same developer as the provider library - it's essentially a re-write of the provider package, fixing many of the flaws of that library (also see: https://github.com/rrousselGit/riverpod).
+
+That's why this course uses riverpod.
+
+As mentioned in the section, there generally are many other alternative packages you could use instead - for example Redux or Bloc. [This page](https://docs.flutter.dev/development/data-and-backend/state-mgmt/options) from the official documentation gives you a good overview of available packages - definitely feel free to play around with them and find the package your personally like most.
+

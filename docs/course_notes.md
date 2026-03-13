@@ -382,3 +382,16 @@ That's why this course uses riverpod.
 
 As mentioned in the section, there generally are many other alternative packages you could use instead - for example Redux or Bloc. [This page](https://docs.flutter.dev/development/data-and-backend/state-mgmt/options) from the official documentation gives you a good overview of available packages - definitely feel free to play around with them and find the package your personally like most.
 
+## Important: "location" Package & Android
+In the next lecture, we'll add the "location" package (a third-party package) get the user's location.
+
+In the next lectures, when running the app on Android, you might get an error though (after adding that package).
+
+If that should be the case, try editing your `android/settings.gradle` file and make sure the following line:
+```groovy
+id "org.jetbrains.kotlin.android" version "1.9.21" apply false
+```
+reflects your current Kotlin version (you find that version in the `build.gradle` file).
+
+Also see this Q&A thread (and the threads linked in there) for further context: https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37130520#questions/21453790/
+

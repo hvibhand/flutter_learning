@@ -395,3 +395,9 @@ reflects your current Kotlin version (you find that version in the `build.gradle
 
 Also see this Q&A thread (and the threads linked in there) for further context: https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37130520#questions/21453790/
 
+## Adding Your Own Native Code
+With Flutter, when using native device features, you'll very likely use external packages most of the time - like the ImagePicker or GoogleMaps packages used in this section.
+
+But if you need to tap into a certain native device functionality that's not exposed by any package, you can also write your own native code and connect that to your Flutter code.
+
+It's a rarely needed feature but this page from the official documentation explains how you could add your own native code: https://docs.flutter.dev/development/platform-integration/platform-channels

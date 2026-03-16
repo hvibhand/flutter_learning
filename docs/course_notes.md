@@ -401,3 +401,25 @@ With Flutter, when using native device features, you'll very likely use external
 But if you need to tap into a certain native device functionality that's not exposed by any package, you can also write your own native code and connect that to your Flutter code.
 
 It's a rarely needed feature but this page from the official documentation explains how you could add your own native code: https://docs.flutter.dev/development/platform-integration/platform-channels
+
+## FlutterFire Configuration
+In the next lecture, we'll connect our Flutter project to Firebase by running the `flutterfire configure` command.
+
+When going through all the questions asked by this command (as shown in the next lecture), you must specify an Android application ID.
+
+DON'T use the default (com.example.app) there! Instead, **specify the name of your package** which you find in the `android/app/build.gradle` file.
+
+## Firebase & Image Storage
+Unfortunately, Firebase now requires you to **sign up with a credit card** in order to use their storage service.
+
+However, **you can still follow along for free** since they still provide a **generous free tier** - i.e., as long as you don't exceed that tier (which you won't, if you just follow along with this course example and you don't upload lots of images), you can use their storage for free.
+
+## A Note About Reading Data From Firestore
+In the next lectures, we'll **read data** from Firebase.
+
+If you should be facing any **issues** with that during the next lectures, consider diving into the following **Q&A threads** which offer potential solutions. Of course, you can **ignore** those threads if you don't face any issues.
+
+https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37736704#questions/19981674
+
+https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37736700#questions/19980322
+

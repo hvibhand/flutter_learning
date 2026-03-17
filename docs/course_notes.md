@@ -1,4 +1,4 @@
-# Flutter & Dart - The Complete Guide
+# [Flutter & Dart - The Complete Guide](https://capgemini.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps)
 
 ## Deep Dive: Position & Named Arguments
 In the previous lecture, you learned about **"positional"** and **"named"** arguments / parameters.
@@ -423,3 +423,20 @@ https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/
 
 https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37736700#questions/19980322
 
+## Publishing iOS & Android Apps
+Ultimately, after building and thoroughly testing your Flutter app, you might want to publish it to Google's Play Store or Apple's AppStore.
+
+Publishing to these stores is actually not really difficult but involves a couple of steps. Hence it's best to go through the official, written, step-by-step instructions for the different platforms:
+
+- Publish an Android App: https://docs.flutter.dev/deployment/android
+- Publish an iOS App: https://docs.flutter.dev/deployment/ios
+
+In those guides, you don't just learn how to publish your apps but also how to configure their icons, titles & more useful settings.
+
+## Bonus Lecture
+If you enjoyed this course, you might enjoy our other courses & tutorials as well.
+- You find a full list of our courses here: https://academind.com/courses - all course links there come with discounts attached to them!
+- You can also get all our courses in a monthly or yearly subscription package: https://pro.academind.com/
+- More tutorials can be found here: https://academind.com/tutorials
+- Also visit our YouTube channel for more content: https://youtube.com/c/academind
+- Or follow Max on Twitter: https://twitter.com/maxedapps (or Academind: https://twitter.com/academind_real)
